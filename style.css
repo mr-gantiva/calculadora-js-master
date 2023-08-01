@@ -1,6 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: system-ui, sans-serif;
   background-color: #f2f2f2;
+  height: 100vh;
 }
 
 h1 {
@@ -12,6 +13,14 @@ h2 {
   text-align: center;
   margin-top: 10px;
   color: #666;
+}
+
+.calculadora-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .calculadora {
